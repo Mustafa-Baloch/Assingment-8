@@ -1,0 +1,98 @@
+.main{
+
+    display: flex;
+    
+
+}
+.main>div{
+    height: auto;
+    padding: 10px;
+}
+
+.grow1{
+    background-color: #ffffff;
+    flex-grow: 1;
+    
+    
+    
+}
+
+.grow2{
+    background-color:#ffffff;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+
+}
+img{
+    height: 700px;
+    margin-right: 40px;
+    
+
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 0.5cm;
+    
+}
+span{
+    color: #8dc63f;
+}
+
+.h1{
+    margin-top: 200px;
+    margin-left: 20px;
+}
+.td{
+    border: 1px sold black;
+    width: 500px;
+    height: 100px;
+    margin-left:20px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+.button {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 16px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
